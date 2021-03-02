@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#container {
+.container {
+    width: 100vw;
     min-height: 100vh;
-    width: 50vw;
 }
