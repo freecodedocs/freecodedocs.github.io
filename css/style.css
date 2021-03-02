@@ -22,8 +22,19 @@ body {
     min-height: 100vh;
 }
 
+#title {
+    margin-top: 5vh;
+    width: 100vw;
+    text-align: center;
+}
+
 #repoIntro {
     width: 100vw;
     height: auto;
     margin-top: 5vh;
+}
+
+#languagesList {
+    margin-top: 5vh;
+    margin-left: 5vw;
 }
