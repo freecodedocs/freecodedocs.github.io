@@ -3,7 +3,17 @@
     padding: 0;
 }
 
-.container {
+p {
+    text-align: center;
+}
+
+#container {
     width: 100vw;
     min-height: 100vh;
+}
+
+#repoIntro {
+    width: 100vw;
+    height: auto;
+    margin-top: 5vh;
 }
