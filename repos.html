@@ -13,11 +13,45 @@
 <body>
     <div id="container">
         <section id="repoIntro">
-            <p>This page is where I will put tutorials and information how to make a repo to host packages and code.</p>
+            <p class="p-center" style="margin-bottom: 5vh; font-size: 25px;">This page is where I will put tutorials and information how to make a repo to host packages and code.</p>
         </section>
 
         <section id="APT">
-            <p></p>
+            <p class="p-norm" style="margin-bottom: 5vh; margin-top: 5vh;">Important This APT example is for iOS devices change to your need</p>
+            <p class="p-norm">Step 1: Make a github repo</p>
+            <br>
+            <p class="p-norm">Step 2: Make a folder called "debs"</p>
+            <br>
+            <p class="p-norm">Step 3: Make a file Release and with no extension.</p>
+            <br>
+            <p class="p-norm">Step 4: Copy and edit this into the Release file
+                Origin: Your repo name
+                Label: Your label
+                Suite: stable
+                Version: 1.0
+                Codename: ios (Change to what you're building for)
+                Architectures: iphoneos-arm (Change for what you're building for)
+                Components: main
+                Description: Your Description.
+            </p>
+            <br>
+            <p class="p-norm">Step 5: Create a Package file with no extension.
+                Package: com.YourName.PackageName
+                Version: 0.0.1-1+debug
+                Architecture: iphoneos-arm (Change for correct Architecture)
+                Maintainer: Developers
+                Installed-Size: 0
+                Depends: mobilesubstrate (replace for what you need)
+                Filename: debs/yourdeb_0.0.1_example.deb
+                Size: file size of deb
+                MD5sum: (Put deb MD5sums)
+                SHA1: (Put deb SHA1)
+                SHA256: (Put deb SHA256)
+                Section: example (folder stored in once installed)
+                Description: Package Description
+                Author: Your name
+                Name: Package name
+            </p>
         </section>
     </div>
 </body>
