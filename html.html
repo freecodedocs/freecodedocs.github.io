@@ -42,6 +42,18 @@ description: Bare bones of a website.
 {% endhighlight %}
 
         <div id="dropdown">
+            <button onclick="showDropdown()" class="dropbtn">Internal CSS</button>
+            <div id="innerDropdown" class="dropdown-content">
+
+{% highlight html %}
+<div style="write-css-here"></div> <!-- Write style=" inside the tag"-->
+<h1 style="write-css-here"></h1> <!-- Example 2 -->
+{% endhighlight %}
+
+            </div>
+        </div>
+
+        <div id="dropdown">
             <button onclick="showDropdown()" class="dropbtn">External CSS</button>
             <div id="innerDropdown" class="dropdown-content">
 
