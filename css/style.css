@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+ul {
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
 .p-center {
     text-align: center;
     margin-left: 5vw;
@@ -32,9 +37,4 @@
     width: 100vw;
     height: auto;
     margin-top: 5vh;
-}
-
-#languagesList {
-    margin-top: 5vh;
-    margin-left: 5vw;
 }
