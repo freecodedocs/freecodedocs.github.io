@@ -39,6 +39,10 @@ ul {
     margin-top: 5vh;
 }*/
 
+figure {
+    padding: 0;
+}
+
 /* Dropdown Button */
 .dropbtn {
     background-color: #3498DB;
