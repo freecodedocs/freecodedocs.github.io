@@ -60,6 +60,7 @@ ul {
 #dropdown {
     position: relative;
     display: inline-block;
+    padding: 0;
 }
   
 /* Dropdown Content (Hidden by Default) */
