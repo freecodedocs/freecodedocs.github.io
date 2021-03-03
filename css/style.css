@@ -1,4 +1,4 @@
-* {
+/** {
     margin: 0;
     padding: 0;
 }
@@ -37,4 +37,14 @@ ul {
     width: 100vw;
     height: auto;
     margin-top: 5vh;
+}*/
+
+.dropdown-menu {
+    width: 50vw;
+    transform: translate3d(0px, 38px, 0px); 
+}
+
+.dropdown {
+    margin-top: 15vh; 
+    margin-bottom: 15vh;
 }
